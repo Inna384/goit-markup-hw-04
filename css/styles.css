@@ -115,7 +115,15 @@ body{
   .page{
   background-color: #2e2f42;
   padding: 188px 0;
-      }
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+ url("../images/people-office.jpg");
+ max-width: 1440px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ margin-left: auto;
+ margin-right: auto;
+       }
 .page-container{
   display: block;
   align-items: center;
@@ -129,8 +137,7 @@ body{
         color: #fff;
         max-width: 496px;
         margin-bottom: 48px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
       }
 .page-btn{
    display: block;
@@ -165,6 +172,22 @@ body{
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.properties-list-icon{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.properties-icon{
+  display: block;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.properties-item-icon{
+  align-items: center;
 }
 .properties-list{
   display: flex;
