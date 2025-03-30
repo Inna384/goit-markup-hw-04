@@ -333,11 +333,15 @@ body{
 }
 .footer-container{
   display: flex;
-  align-items: center;
-}
+  align-items: baseline;
+  
+  }
 .page-footer{
   background-color: #2e2f42;
   padding: 100px 0;
+}
+.logo-footer-container{
+  margin-right: 120px;
 }
 .logo-footer{
   font-family: "Raleway", sans-serif;
@@ -371,8 +375,8 @@ body{
   }
   .footer-networks{
     display: flex;
-    margin-right: 120px;
-    align-items: baseline;
+    
+    
     flex-direction: column;
   }
   .footer-networks-text{
