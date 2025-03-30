@@ -153,6 +153,7 @@ body{
    min-width: 169px;
    height: 56px;
    border: none;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
 .page-btn:hover,
 .page-btn:focus{
@@ -175,19 +176,19 @@ body{
 }
 .properties-list-icon{
   display: flex;
-  align-items: center;
-  gap: 24px;
-}
-.properties-icon{
-  display: block;
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-}
-.properties-item-icon{
   align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  gap: 24px;
+}
+.properties-icon{
+  display: block;
+  
 }
 .properties-list{
   display: flex;
